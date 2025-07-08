@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Project Setup
+
+This project is built with **Laravel 12**. The Metronic theme assets are stored
+under `public/metronic`.
+
+### Installation
+
+1. Install PHP dependencies:
+   ```bash
+   composer install
+   ```
+2. Copy the example environment file and generate an application key:
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+3. Install Node dependencies and compile assets:
+   ```bash
+   npm install
+   npm run build
+   ```
+4. Run database migrations:
+   ```bash
+   php artisan migrate
+   ```
+
+Authentication scaffolding will be documented once it is implemented.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
