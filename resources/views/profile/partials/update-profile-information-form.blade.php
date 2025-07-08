@@ -1,7 +1,7 @@
 <section>
     <header>
         <h2 class="text-lg font-medium text-gray-900">
-            {{ __('Profile Information') }}
+            {{ __('Informações do Perfil') }}
         </h2>
 
         <p class="mt-1 text-sm text-gray-600">
@@ -57,7 +57,7 @@
                     x-transition
                     x-init="setTimeout(() => show = false, 2000)"
                     class="text-sm text-gray-600"
-                >{{ __('Saved.') }}</p>
+                >{{ __('Salvo.') }}</p>
             @endif
         </div>
     </form>
