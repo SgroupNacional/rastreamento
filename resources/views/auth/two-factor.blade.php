@@ -59,10 +59,10 @@ License: For each use you must have a valid license purchased only from above li
 								<!--begin::Heading-->
 								<div class="text-center mb-10">
 									<!--begin::Title-->
-									<h1 class="text-gray-900 mb-3">Two-Factor Verification</h1>
+                                                                        <h1 class="text-gray-900 mb-3">Verificação em Duas Etapas</h1>
 									<!--end::Title-->
 									<!--begin::Sub-title-->
-									<div class="text-muted fw-semibold fs-5 mb-5">Enter the verification code we sent to</div>
+                                                                        <div class="text-muted fw-semibold fs-5 mb-5">Informe o código de verificação que enviamos para</div>
 									<!--end::Sub-title-->
 									<!--begin::Mobile no-->
 									<div class="fw-bold text-gray-900 fs-3">******7859</div>
@@ -72,7 +72,7 @@ License: For each use you must have a valid license purchased only from above li
 								<!--begin::Section-->
 								<div class="mb-10">
 									<!--begin::Label-->
-									<div class="fw-bold text-start text-gray-900 fs-6 mb-1 ms-1">Type your 6 digit security code</div>
+                                                                        <div class="fw-bold text-start text-gray-900 fs-6 mb-1 ms-1">Digite seu código de segurança de 6 dígitos</div>
 									<!--end::Label-->
 									<!--begin::Input group-->
 									<div class="d-flex flex-wrap flex-stack">
@@ -88,9 +88,9 @@ License: For each use you must have a valid license purchased only from above li
 								<!--end::Section-->
 								<!--begin::Submit-->
 								<div class="d-flex flex-center">
-									<button type="button" id="kt_sing_in_two_factor_submit" class="btn btn-lg btn-primary fw-bold">
-										<span class="indicator-label">Submit</span>
-										<span class="indicator-progress">Please wait... 
+                                                                        <button type="button" id="kt_sing_in_two_factor_submit" class="btn btn-lg btn-primary fw-bold">
+                                                                               <span class="indicator-label">Enviar</span>
+                                                                               <span class="indicator-progress">Aguarde...
 										<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
 									</button>
 								</div>
@@ -99,10 +99,10 @@ License: For each use you must have a valid license purchased only from above li
 							<!--end::Form-->
 							<!--begin::Notice-->
 							<div class="text-center fw-semibold fs-5">
-								<span class="text-muted me-1">Didn’t get the code ?</span>
-								<a href="#" class="link-primary fs-5 me-1">Resend</a>
-								<span class="text-muted me-1">or</span>
-								<a href="#" class="link-primary fs-5">Call Us</a>
+                                                                <span class="text-muted me-1">Não recebeu o código?</span>
+                                                                <a href="#" class="link-primary fs-5 me-1">Reenviar</a>
+                                                                <span class="text-muted me-1">ou</span>
+                                                                <a href="#" class="link-primary fs-5">Ligar</a>
 							</div>
 							<!--end::Notice-->
 						</div>

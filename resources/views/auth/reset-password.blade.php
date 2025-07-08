@@ -54,27 +54,27 @@ License: For each use you must have a valid license purchased only from above li
     @csrf
 								<!--begin::Heading-->
 									<!--begin::Title-->
-									<h1 class="text-gray-900 fw-bolder mb-3">Forgot Password ?</h1>
+                                                                        <h1 class="text-gray-900 fw-bolder mb-3">Esqueceu a senha?</h1>
 									<!--end::Title-->
 									<!--begin::Link-->
-									<div class="text-gray-500 fw-semibold fs-6">Enter your email to reset your password.</div>
+                                                                        <div class="text-gray-500 fw-semibold fs-6">Informe seu e-mail para redefinir sua senha.</div>
 									<!--end::Link-->
 								</div>
 								<!--begin::Heading-->
 								<!--begin::Input group=-->
 								<div class="fv-row mb-8">
 									<!--begin::Email-->
-									<input type="text" placeholder="Email" name="email" autocomplete="off" class="form-control bg-transparent" />
+                                                                        <input type="text" placeholder="E-mail" name="email" autocomplete="off" class="form-control bg-transparent" />
 									<!--end::Email-->
 								</div>
 								<!--begin::Actions-->
 								<div class="d-flex flex-wrap justify-content-center pb-lg-0">
 									<button type="button" id="kt_password_reset_submit" class="btn btn-primary me-4">
 										<!--begin::Indicator label-->
-										<span class="indicator-label">Submit</span>
+                                                                        <span class="indicator-label">Enviar</span>
 										<!--end::Indicator label-->
 										<!--begin::Indicator progress-->
-										<span class="indicator-progress">Please wait... 
+                                                                        <span class="indicator-progress">Aguarde...
 										<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
 										<!--end::Indicator progress-->
 									</button>
